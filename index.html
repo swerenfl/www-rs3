@@ -38,8 +38,11 @@
 	<meta name="twitter:title" content="rs3 - all about richard staehler iii">
 	<meta name="twitter:image" content="a static content page detailing all the great things about richard staehler iii.">
 
-	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
@@ -55,12 +58,12 @@
 				<p>CloudOps &nbsp;&bull;&nbsp; DevOps &nbsp;&bull;&nbsp; Geek &nbsp;&bull;&nbsp; Gamer</p>
 				<nav>
 					<ul>
-						<li><a href="https://twitter.com/swerenfl" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/swerenfl/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/swerenfl/" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://twitch.tv/swerenfl" target="_blank" class="icon brands fa-twitch"><span class="label">Twitch</span></a></li>
-						<li><a href="https://rs3.me/documents/staehleriii_richard_resume_2020_Final_for_web.pdf" target="_blank" class="fas fa-file-pdf"><span class="label">Resume</span></a></li>
-						<li><a href="mailto:swerenfl@yahoo.com" target="_blank" class="icon solid fa-envelope"><span class="label">Contact</span></a></li>
+						<li><a href="https://twitter.com/swerenfl" data-toggle="tooltip" title="Hooray!" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/swerenfl/" data-toggle="tooltip" title="Hooray!" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/swerenfl/" data-toggle="tooltip" title="Hooray!" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://twitch.tv/swerenfl" data-toggle="tooltip" title="Hooray!" target="_blank" class="icon brands fa-twitch"><span class="label">Twitch</span></a></li>
+						<li><a href="https://rs3.me/documents/staehleriii_richard_resume_2020_Final_for_web.pdf" data-toggle="tooltip" title="Hooray!" target="_blank" class="fas fa-file-pdf"><span class="label">Resume</span></a></li>
+						<li><a href="mailto:swerenfl@yahoo.com" data-toggle="tooltip" title="Hooray!" target="_blank" class="icon solid fa-envelope"><span class="label">Contact</span></a></li>
 					</ul>
 				</nav>
 			</header>
@@ -78,6 +81,12 @@
 		window.onload = function() { document.body.classList.remove('is-preload'); }
 		window.ontouchmove = function() { return false; }
 		window.onorientationchange = function() { document.body.scrollTop = 0; }
+	</script>
+
+	<script>
+		$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();   
+		});
 	</script>
 
 </body>
