@@ -1,0 +1,64 @@
+/*
+	Created by RS3 - Needed for Jenkins at jenkins.rs3.me
+*/
+
+/* Messages */
+#shutdown-msg {
+    font-weight: bold;
+    color: white;
+    background-color: #ef2929;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+#yellow-msg {
+    font-weight: bold;
+    color: black;
+    background-color: #eded78;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+#green-msg {
+    font-weight: bold;
+    color: white;
+    background-color: #34ba51;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+#blue-msg {
+    font-weight: bold;
+    color: white;
+    background-color: #2d72d8;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+#grey-msg {
+    font-weight: bold;
+    color: white;
+    background-color: #6b7777;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    -moz-border-radius: 0.5em;
+}
