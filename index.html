@@ -71,7 +71,10 @@
 
 			<!-- Footer -->
 			<footer id="footer">
-				<span class="copyright">&copy; 2025 <a href="https://rs3.me">rs3.me</a>. Designed by: <a href="https://x.com/swerenfl">@swerenfl</a>.</span>
+				<span class="copyright">© <span id="year"></span> <a href="https://rs3.me">rs3.me</a>. Designed by: <a href="https://x.com/swerenfl">@swerenfl</a>.</span>
+				<script>
+					document.getElementById('year').textContent = new Date().getFullYear();
+				</script>
 			</footer>
 
 		</div>
